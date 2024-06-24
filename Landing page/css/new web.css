@@ -1,0 +1,264 @@
+.navication{
+    background-image: url(../image/Orange-Business.webp);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:1213px;    
+    height:590px;
+
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    margin-left:850px;
+    margin-top:0px;
+    padding:10px;
+    border-radius:22px;
+    box-shadow: px px px rgba(0,0,0,0.3);
+          
+}    
+
+nav > id{
+    color:black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius:22px;
+
+}
+nav > id:hover {
+    transition: 0.50s;
+    background:rgb(60, 52, 174);
+    color:white;
+}
+
+
+.head-icon{
+    display: flex;
+    justify-content:start;
+    padding-top:10px;
+    padding-left:400px;
+    line-height:35px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight:300;
+    font-style:normal;        
+    color: rgb(250, 249, 249);
+}
+.head-icon img{
+    margin-left:250px;
+    margin-top:30px;
+}
+.catlog{
+    display: flex;
+    justify-content:space-around;
+    padding-top:50px;
+}
+.sub-catlog{
+    border-radius: 50px;
+    margin-left:100px;
+    padding:50px;
+    margin-bottom:50px;
+}
+.sub-catlog h3{
+    font-size: 20px;
+    font-weight:200;
+}    
+.sub-catlog p{
+    width:160px;
+}
+.sub-catlog:hover{
+    background:#d8dadb;
+    color:#51b3ec;
+    border-radius:50px;
+}
+.business{   
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+.sub-business svg{
+    margin-left: 70px;
+    }
+.sub-business h4{
+    line-height: 30px;
+    margin-left:40px;
+    width: 200px;
+}
+
+.next{
+    display:flex;
+    justify-content:space-around;
+       margin:20px;
+}
+.sub-next h4{
+    width: 200px;
+    line-height:30px;
+    margin-left:40px;
+}
+.sub-next img{
+    margin-left:70px;
+}
+.no-fee{
+    font-family:sans-serif;
+    background-color:#00395a;
+   width:94.5vw;
+   height:180vh;
+   padding: 20px;
+   color: rgb(217, 214, 214);
+   
+}
+.no-fee p{
+    font-size: 15px;
+    font-family:sans-serif;
+}
+
+.sub-no-fee{
+    display: flex;
+    justify-content: space-around; 
+    font-size: 25px;
+    margin-top: 50px;
+    color: rgb(248, 247, 247);
+    line-height: 35px;
+}
+.sub-no-fee p{
+    font-size: 15px;
+    line-height:20px;
+}
+.sub-no-fee-1{
+    display: flex;
+    justify-content: space-around;
+    font-family:sans-serif;
+    font-size: 25px;
+    margin-top:50px; 
+    color: rgb(250, 249, 249);
+    line-height: 40px;
+}
+.sub-no-fee-1 p{
+    font-size: 16px;
+    line-height:20px;
+
+}
+.wire p{
+    margin-right:90px;
+}
+
+.contact{
+    background-color:rgb(58, 218, 229) ;
+    font-family:sans-serif;
+    width:1114px;
+    height:1270px;   
+    padding:50px;
+    
+}
+.sub-contact{
+    display: flex;
+    justify-content: end;
+    padding:15px;
+    border-bottom: 2px solid ;
+
+}
+.main-contact p{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+
+}
+.main-contact{
+    background-color: white;
+    font-family:sans-serif;
+    padding:50px;
+    width:550px;
+    height:300px;
+    margin-left:270px;
+border-radius: 20px;
+}
+.main-contact button{
+    border-radius:50px;
+    background-color:rgb(62, 166, 241) ;
+    font-family:sans-serif;
+    padding:7px 20px 5px 20px;
+    margin: 15px;
+    color:rgb(243, 239, 239);
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+}
+.client p{
+    font-size:16px;
+    width:650px;
+    line-height:35px;
+}
+.benifit li{
+    line-height: 35px;
+}
+
+.sub-client{
+    display: flex;
+    justify-content:space-between;
+    margin-left:40px;
+}
+.sub-client p{
+    line-height:35px;
+}
+
+.about {    
+    background-color:#00395a;
+    color: rgb(243, 239, 239);
+    font-family:sans-serif;
+    width: 1155px;
+    height: 550px;
+    padding: 30px;
+}
+.sub-about{
+    display:flex;
+    justify-content:space-between;
+    line-height: 30px;
+    font-size: 22px;
+}
+.sub-about h3{
+    color: white;
+    font-size: 22px;
+    padding-top:25px;
+}
+.sub-about svg{
+    padding-top:10px;
+}
+.sub-about hr{
+    margin-left:1px;
+    width:150px;
+}
+
+.sub-about li{
+    color: white;
+    font-size: 15px;
+}
+.sub-about-box{
+    background-color: white;
+    width: 390px;
+    height:430px;
+    border-radius:30px;
+}
+.sub-about-box h4{
+    display: flex;
+    justify-content:center;
+    background-color:rgb(62, 166, 241) ;
+    
+}
+.name-bar input{
+    display: flex;    
+    flex-direction:column;
+    padding:10px 150px 10px 10px;
+    margin:20px;
+    margin-left:35px;
+    border-radius:50px;
+    
+}
+.name-bar button{
+    background-color:rgb(119, 185, 232);
+    margin-left:130px;
+    border-radius:50px;
+    padding: 10px 30px 10px 30px;
+} 
