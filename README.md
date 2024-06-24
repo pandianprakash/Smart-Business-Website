@@ -1,4 +1,5 @@
 Hunter Caroline Smart Business Website
+
 This repository contains the HTML and CSS files for the Hunter Caroline smart business website.
 
 Table of Contents
